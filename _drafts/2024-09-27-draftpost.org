@@ -1,0 +1,17 @@
+#+TITLE: Draft Post
+#+DATE: 2024-09-27
+
+#+STARTUP: showall indent
+#+OPTIONS: toc:nil
+#+OPTIONS: tex:t
+
+This would be an introductory paragraph.
+
+* Heading 1
+
+This could be some more information.[fn:works]
+
+
+* Footnotes
+
+[fn:works]: Here's how a footnote works.

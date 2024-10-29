@@ -1,0 +1,98 @@
+# Configs
+
+title: "Jekyll Profile"
+name: "A Free Job Market Profile in Jekyll"
+email: 
+url: "https://econ-691.github.io"
+baseurl: "/Jekyll-for-Job-Market"
+repository: "ECON-691/Jekyll-for-Job-Market"
+header:
+  image: /assets/images/banner-husky.jpg
+
+include:
+  - _pages
+  - assets
+  - index.html
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "contrast"
+
+# settings for author profile
+author:
+  name   : "Mission III"
+  avatar : "/assets/images/banner-husky.jpg"
+  bio    : "My name is Mission III, and I am the official Huskie mascot at Northern Illinois University."
+  location: "DeKalb, Illinois"
+  github : 
+  linkedin: "school/northern-illinois-university" #This is a fake site that won't work. To add your own, make sure to include just the profile, not the full url. Eg. anna-klis-1337a150
+  email  : 
+
+
+# # comments by disqus
+#comments:
+  #provider: "disqus"
+  #disqus:
+    #shortname: "pwills-com"
+
+#analytics:
+  #provider: "google"
+  #google:
+    #tracking_id: "UA-116208936-1"
+
+
+# pagination for blog page
+paginate: 10 # number of posts to show
+paginate_path: /page:num/
+
+# default YAML front matter
+defaults:
+  # all
+  - scope:
+      path: ""
+    values:
+      layout: single
+      mathjax: true
+      author_profile: true
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
+  - scope:
+      type: posts
+    values:
+      toc: true
+      toc_label: "Contents"
+      read_time: false
+      comments: true
+  # portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      author_profile: false
+      excerpt: ""
+      sidebar:
+        nav: "portfolio"
+
+# collections
+collections:
+  portfolio:
+    output: true
