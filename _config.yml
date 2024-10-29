@@ -1,13 +1,13 @@
 # Configs
 
-title: "Jekyll Profile"
-name: "A Free Job Market Profile in Jekyll"
-email: 
-url: "https://econ-691.github.io"
-baseurl: "/Jekyll-for-Job-Market"
-repository: "ECON-691/Jekyll-for-Job-Market"
+title: "Zarin Fabiha"
+name: "Jekyll website for Zarin Fabiha"
+email: z2019125@student.niu.edu
+url: "https://z2019125.github.io
+baseurl: "/Zarin-Fabiha-Websites"
+repository: "z2019125/Zarin-Fabiha-Websites"
 header:
-  image: /assets/images/banner-husky.jpg
+  image: /assets/images/"C:\Users\Z2019125\Desktop\IMG_5794.HEIC"
 
 include:
   - _pages
@@ -37,12 +37,13 @@ minimal_mistakes_skin: "contrast"
 
 # settings for author profile
 author:
-  name   : "Mission III"
-  avatar : "/assets/images/banner-husky.jpg"
-  bio    : "My name is Mission III, and I am the official Huskie mascot at Northern Illinois University."
+  name   : "Zarin Fabiha"
+  avatar : "/assets/images/"C:\Users\Z2019125\Desktop\IMG_5794.HEIC"
+
+  bio    : "My name is Zarin Fabiha, and I am a student at Northern Illinois University."
   location: "DeKalb, Illinois"
   github : 
-  linkedin: "school/northern-illinois-university" #This is a fake site that won't work. To add your own, make sure to include just the profile, not the full url. Eg. anna-klis-1337a150
+  linkedin: zareen-fabiha-aa6008336/
   email  : 
 
 
